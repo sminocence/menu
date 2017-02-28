@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0
+}
+/*新世界整个部分*/
+.new_world{
+    width: 100%;
+    height: auto;
+}
+/*导航*/
+.nav{
+    width: 1280px;
+    height: 57px;
+    margin: 0 auto;
+}
+.nav .logo{
+    width: 34px;
+    height: 33px;
+    float: left;
+    margin:  14px 0 0 57px;
+}
+.nav h3{
+    font-family: 微软雅黑;
+    float: left;
+    margin: 20px 0 0 5px;
+}
+.nav ul{
+    float: left;
+    margin: 20px 0 0 518px;
+}
+.nav li{ 
+    width: 77px;
+    height: 16px;
+    list-style: none;
+    float: left;
+    padding: 2px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.nav li:hover{
+    color: #E7504D;
+    cursor: pointer;
+}
+.nav .logo_person{
+    float: left;
+    margin-top: 22px;
+}
+.nav h4 a{
+    float: left;
+    margin-top: 22px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+}
+/*首页图片部分*/
+.index{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.index_photo{
+    width: 100%;
+    height: 650px;
+}
+.index .photo_eng{
+    position: absolute;
+    top: 250px;
+    left: 240px;
+    font-size: 55px;
+    color: #ffffff;   
+}
+.index .photo_chi{
+    position: absolute;
+    top: 330px;
+    left: 250px;
+    width: 230px;
+    height: 43px;
+    font-size: 17px;
+    color: #ffffff;    
+}
+.index .photo_but{
+    position: absolute;
+    top: 420px;
+    left: 250px;
+    width: 330px;
+    height: 63px;
+    background: #E7504D; 
+}
+.index .photo_but h1{
+    height: 63px;
+    line-height: 63px;
+    color: #ffffff;
+    text-align: center;
+}
+/*主题介绍*/
+.item_photos{
+    width: 1280px;
+    height: 120px;
+    margin: 0 auto; 
+}
+.item_photos img{
+    width: 45px;
+    height: 43px;
+    float: left;
+    padding: 40px 135px;
+}
+.item_intro{
+    width: 1096px;
+    height: 120px;
+    margin:  0 auto;
+}
+.item_intro li{
+    width: 153px;
+    height: 40px;
+    list-style: none;
+    float: left;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #8D8D8D;
+    text-align: center;
+}
+/*新世界的信息*/
+.newWorld_item{
+    width: 100%;
+    height: 360px;
+    background: #ECECEC;
+    text-align: center;
+}
+.newWorld_item .newItem_photo{
+    width: 95px;
+    height: 95px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.newWorld_item p{
+    width: 870px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 44px;
+    font-size: 54px;
+    color: #A2A2A2;
+}
+/*搜索城市信息*/
+.search_cityInfo{
+    width: 100%;
+    height: 404px;
+    text-align: center;
+    position: relative;
+}
+.search_cityInfo img{
+    width: 100%;
+    height: auto;
+}
+.search_activi{
+    position: absolute;
+    top: 13%;
+    left: 43%;
+    width: 235px;
+    height: 27px;
+    font-size: 21px;
+    color: #ffffff;
+}
+.search_divi{
+    position: absolute;
+    top: 20%;
+    left: 49%;
+    width: 40px;
+    font-size: 26px;
+    color: #ffffff;
+}
+.search_city{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 338px;
+    height: 20px;
+    font-size: 12px;
+    color: #ffffff;   
+}
+/*.search_cityInfo form{
+    position: absolute;
+    top: 50%;
+    left: 45%; 
+}*/
+/*具体活动介绍*/
+.activi_intro{
+    width: 100%;
+    height: 606px;
+    background: #F7F7F7;
+}
+.activi_intro .activintro_main{ 
+    width: 1012px;
+    height: 450px;
+    list-style: none;
+    margin: 0 auto;  
+}
+.activi_intro .activi_box{
+    float: left;
+    padding: 80px 37px 0 0;
+}
+.activi_photo{ 
+    width: 216px;
+    height: 334px;
+    background: #ffffff;
+    border: 1 solid #F7F7F7;
+    text-align: center;
+}
+.activi_photo img{
+    padding-top: 12px;
+}
+.activi_box p{
+    margin-top: 6px;
+    text-align: center;
+    color: #909191;
+}
+/*新世界 TIME*/
+.newworld_time{
+    width: 100%;
+    height: 566px;
+}
+.time_beijing{    
+    width: 56%;
+    height: 566px;
+    float: left;
+    position: relative;
+}
+.time_new{
+    width: 44%;
+    height: 566px;
+    float: left;
+}
+.time_01{   
+    width: 105px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 160px;
+    font-size: 21px;
+}
+.time_01_text{
+    width: 294px;
+    height: 108px;
+    line-height: 22px;
+    margin: 0 auto;
+    margin-top: 40px; 
+    color: #B7B7B7;
+}
+.time_new .more{
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    color: #E74F4D;
+    border: 1px solid #E74F4D;
+}
+.time_beijing p{
+    color: #ffffff;
+    text-align: center;
+}
+.time_neworld{
+    position: absolute;
+    top: 133px;
+    left: 350px;
+    font-size: 50px;
+}
+.time_item{
+    position: absolute;
+    top: 170px;
+    left: 240px;
+    font-size: 158px;
+}
+.time_place{
+    position: absolute;
+    top: 348px;
+    left: 350px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.time_ti{
+    position: absolute;
+    top: 360px;
+    left: 365px;
+    font-size: 22px;
+    margin-top: 32px;
+}
+/*新时代*/
+.new_age{
+    width: 100%;
+    height: 523px;
+}
+.newage_modle1{
+    width: 33.3%;
+    height:523px;
+    float: left;
+    background: #E74F4D;
+    color: #ffffff;
+    text-align: center;
+}
+.newage_modle2{
+    width: 33.3%;
+    height:523px;
+    float: left;
+    text-align: center;
+    color: #000000;
+}
+.new_age .period{
+    margin-top: 170px;
+}
+.new_age p{ 
+    margin-top: 20px;
+    font-size: 21px; 
+}
+.newage_modle1 .more{
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.newage_modle2 .more{
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #E74F4D;
+    text-align: center;
+    border: 1px solid #E74F4D;
+}
+.new_age img{
+    width: 33.3%;
+    height: 523px;
+    float: left;
+}
+/*成为我们的志愿者*/
+.volunteer{
+    width: 100%;
+    height: 750px;
+}
+.tobe_volun{
+    margin-top: 115px;
+    font-size: 21px;
+    text-align: center;
+}
+.volun_divider{
+    margin-top: 5px;
+    color: #E74F4D;
+    font-weight: bold;
+    text-align: center;
+}
+.volun_summary{
+    font-size: 12px;
+    color: #B7B7B7;
+    text-align: center;
+}
+.volunteer .volun_meeting{
+    width: 370px;
+    height: 300px;
+    float: left;
+    margin: 80px 0 0 135px;
+}
+.volunteer .meeting_part{
+    width: 370px;
+    margin-top: 30px;
+    list-style: none;
+}
+.volunteer .meeting_item{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.volunteer .meeting_summary{
+    color: #B7B7B7;
+    font-size: 12px;
+}
+.volunteer .meeting_more{
+    text-align: right;
+    color: #B7B7B7;
+    font-size: 12px;
+}
+.info_form{
+    width: 646px;
+    height: 290px;
+    float: left;
+    margin: 90px 0 0 15%;
+}
+.info_form ul{
+    list-style: none;
+}
+.info_form .info_item{
+    width: 312px;
+    height: 35px;
+    float: left;
+    margin: 20px 10px 0 0;
+    background: #EDEDEE;
+}
+.info_form p{
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    margin-left: 6px;
+    font-family: 微软雅黑; 
+    color: #837F80;
+    text-align: center;
+}
+.info_form .info_input{
+    width: 224px;
+    height: 24px;
+    margin-top: 4px;
+    border: none;
+    background: #EDEDEE;
+}
+.info_text{
+    width: 634px;
+    height: 120px;
+    margin-top: 20px;
+    color: #837F80;
+    background:#EDEDEE;
+    font-family: 微软雅黑;
+    border: none; 
+}
+.info_butt{
+    width: 634px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    background: #EDEDEE;
+    letter-spacing: 2px;
+    color: #837F80;
+}
+/*联系我们*/
+.contact{
+    width: 100%;
+    height: 416px; 
+    padding-top: 1px;
+    background: #32363E;
+}
+.contact_us{
+    margin:  80px 0 10px 0; 
+    text-align: center; 
+    font-size: 21px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.contact_summary{
+    width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.contact_blank{
+    width: 511px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid #32363E;
+}
+.contact .email_blank{
+    width: 430px;
+    height: 40px;
+    float: left;
+    border: none;
+}
+.contact .submit{
+    width: 81px;
+    height: 40px;
+    float: left;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background: #6F7178;
+    border: none;
+}
+.contact_icon{
+    width: 210px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.contact_icon img{
+    margin-left: 20px;
+}
+.contact_foot{
+    width: 103px;
+    height: 30px;  
+    float: left;
+    margin: 100px 0 0 20px;
+    color: #ffffff;
+}
+.contact_back{
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 100px;
+    color: #ffffff;
+}
